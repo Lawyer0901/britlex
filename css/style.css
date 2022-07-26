@@ -106,9 +106,6 @@ a {
   margin-bottom: 181px;
 }
 
-.hero__girl {
-  fill: #263238;
-}
 .hero__title {
   margin-bottom: 40px;
   position: relative;
@@ -155,6 +152,15 @@ a {
 .hero-flex {
   display: flex;
   justify-content: space-between;
+}
+
+.hero-wrapper {
+  position: relative;
+}
+.header__icon-buble {
+  position: absolute;
+  top: 90px;
+  right: 0;
 }
 
 /* SKILLS */
