@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    padding-left: 131px;
+    padding-right: 131px;
+  }
+}

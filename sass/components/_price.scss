@@ -1,0 +1,54 @@
+.price {
+  margin-top: 84px;
+}
+
+.price__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 80px;
+
+  color: #000000;
+}
+
+.price__list {
+  margin-top: 49px;
+  text-align: center;
+}
+
+.price__item + .price__item {
+  margin-top: 63px;
+}
+
+.price__subtitle {
+  margin-top: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #263238;
+}
+
+.price__text {
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #8f95a5;
+}
+.price__img {
+  margin: 0 auto;
+}
+
+.price-container {
+  margin-top: 33px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 170px;
+  height: 37px;
+  background: #eeeeee;
+  border-radius: 5px;
+}

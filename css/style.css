@@ -23,15 +23,15 @@ a {
 /* CONTAINER */
 
 .header {
-  margin-top: 55px;
+  padding-top: 55px;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1378px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1600px;
+  padding-left: 131px;
+  padding-right: 131px;
 }
 
 .header__list {
@@ -203,7 +203,7 @@ a {
   width: 882px;
   position: absolute;
   bottom: 0;
-  right: 30px;
+  right: 20px;
 }
 
 .skills-container {

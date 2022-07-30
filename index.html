@@ -23,7 +23,7 @@
     />
     <!-- Modern normalize end -->
     <!-- Custom styles start -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
     <!-- Custom styles end -->
   </head>
   <body>
@@ -33,6 +33,27 @@
       <div class="container">
         <div class="header__flex">
           <a class="logo" href="#"> Brit<span class="header__logo">lex</span></a>
+          <button class="mobile-menu" type="button"><img src="./images/burger-menu.jpg" alt="burge">
+          </button>
+<nav class="header__mobile">
+  <ul class="header__mobile-list">
+    <li class="header__mobile-item"></li>
+                <a class="header__mobile-link" href="#">Home</a>
+              </li>
+              <li class="header__mobile-item">
+                <a class="header__mobile-link" href="#">Skills</a>
+              </li>
+              <li class="header__mobile-item">
+                <a class="header__mobile-link" href="#">About Us</a>
+              </li>
+              <li class="header__mobile-item">
+                <a class="header__mobile-link" href="#">Pricing</a>
+              </li>
+              <li class="header__mobile-item">
+                <a class="header__mobile-link" href="#">Contacts</a>
+              </li>
+</ul>
+</nav>
           <nav class="header__menu">
             <ul class="header__list">
               <li class="header__item">
@@ -69,7 +90,7 @@
         <div class="container">
           <div class="hero-flex">
             <div class="hero-wrapper">
-              <h1 class="hero__title">Learn <br>Any Foreign Language</h1>
+              <h1 class="hero__title">Learn Any Foreign<nbsp></nbsp>Language</h1>
               <p class="hero__text">
                 With our teachers who write a program for each student, you will
                 be able to make your first sketch after the first lesson.
@@ -79,7 +100,7 @@
               </button>
               <img class="header__icon-buble" src="./images/bulb-icon.jpg" alt="buble">
             </div>
-            <img src="./images/learning-languages.jpg" alt="girl" width="654" height="510">
+            <img class="hero__img-girl" src="./images/learning-languages.jpg" alt="girl" width="299" height="299">
             </div>
         </div>
       </section>
@@ -94,8 +115,8 @@
               <img class="skills__img"
                 src="./images/speaking.svg"
                 alt="speaking"
-                width="390"
-                height="390"
+                width="213"
+                height="213"
               />
               <h3 class="skills__sumtitle">Speaking</h3>
               <p class="skills__txt">
@@ -108,12 +129,12 @@
               </p>
               <button type="button" class="skills__button">Learn more</button>
             </li>
-            <li class="skills__item skills__item--base">
-              <img
+            <li  class="skills__item skills__item--base">
+              <img class="skills__img"
                 src="./images/writting.svg"
                 alt="speaking"
-                width="390"
-                height="264"
+                width="204"
+                height="204"
               />
               <h3 class="skills__sumtitle">Writting</h3>
               <p class="skills__txt">
@@ -124,11 +145,11 @@
               <button type="button" class="skills__button">Learn more</button>
             </li>
             <li class="skills__item skills__item--base">
-              <img
+              <img class="skills__img"
                 src="./images/reading.svg"
                 alt="speaking"
-                width="390"
-                height="264"
+                width="236"
+                height="157"
               />
               <h3 class="skills__sumtitle">Reading</h3>
               <p class="skills__txt">
@@ -139,11 +160,11 @@
             </li>
             <li class="skills__item skills__item--long">
                 
-              <img
+              <img class="skills__img"
                 src="./images/listening.svg"
                 alt="speaking"
-                width="408"
-                height="274"
+                width="232"
+                height="154"
               />
               <div class="skills-container">
                   <h3 class="skills__sumtitle">Listening</h3>
@@ -162,34 +183,39 @@
 
       <section class="about">
         <div class="container about-container">
+          <h2 class="about__title">About Us</h2>
           <div class="about-thumb">
-             <h2 class="about__title">About Us</h2>
-        <p class="about__text">
+             <img class="about__img" src="./images/competition-bro.jpg" alt="business" width="283" height="283">
+           
+<p class="about__text">
           The model offers a framework for discussing problems related to the user's experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.
         </p>
+       
+          
+       
         <div class="wraper-container">
- <div class="wraper">
           <h2 class="about__subtitile">800</h2>
         <p class="about__subtitle-text">
           Pupils
         </p>
-        </div>
-        <div class="wraper">
-        <h2 class="about__subtitile">18</h2>
+<h2 class="about__subtitile">18</h2>
         <p class="about__subtitle-text">
           Teachers
         </p>
-        </div>
-        <div class="wraper">
+     
+    
         <h2 class="about__subtitile">6</h2>
         <p class="about__subtitle-text about__subtitle-text--short">
           Foreign languages
         </p>
-        </div>
 
-        </div> 
-          </div>
-        <img class="about__img" src="./images/competition-bro.jpg" alt="business" width="540" height="540">
+        </div>
+        
+             </div>
+        
+        
+       
+        
         </div>
       </section>
 
@@ -203,7 +229,7 @@
 <ul class="price__list">
   <li class="price__item second">
     <div class="div">
-<img class="price__img" src="./images/online.jpg" alt="nline">
+<img class="price__img" src="./images/online.jpg" alt="nline" width="248" height="248">
 <h3 class="price__subtitle">
   Self-study online course
 </h3>
@@ -225,7 +251,7 @@ from all over the world.
 </div>
  </li>
 
-<li class="prise__item second">
+<li class="price__item second">
   <div class="div">
 <img class="price__img" src="./images/lesson.jpg" alt="nline">
 <h3 class="price__subtitle">
@@ -277,13 +303,12 @@ our first session for only $1
   <!-- CONTACTS -->
 
   <section class="contact">
-    <div class="container">
+    <div class="container contact-flex">
+  <h2 class="contact__title">Contact Us</h2>
 
-<div class="contact-flex">
-  
-<img src="./images/contact.jpg" alt="contact" class="contact__img">
+
     <div class="contact-container">
-<h2 class="contact__title">Contact Us</h2>
+      <img src="./images/contact.jpg" alt="contact" class="contact__img">
       <p class="contact__text">
       Discover your current English level by taking our free online English test. Sign up to our newsletter for learning tips and free resources
     </p>
@@ -293,9 +318,7 @@ our first session for only $1
       <button  class="contact__button" type="button">Subscribe</button>
     </label>
     </form>
-   
-    </div>
-</div>
+       </div>
     </div>
      </section>
     </main>
